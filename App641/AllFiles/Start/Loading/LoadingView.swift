@@ -20,6 +20,7 @@ struct LoadingView: View {
                 Image("Llogo")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .padding(80)
             }
             
             VStack {
